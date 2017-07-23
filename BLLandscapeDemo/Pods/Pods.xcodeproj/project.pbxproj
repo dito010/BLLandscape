@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F0B4F81A4F90D4DF11C0FB4D73F77C /* UIView+ScreenCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB2BE896AD742B56360E32B3F9196AA /* UIView+ScreenCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		034DC10F5E754A45028AD6CDE43F2095 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E28A3DCE9B817C5934E59C48A8CEFF2 /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		040847039B3CA64365DDEB1B71A67B39 /* JPPushAnimationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A42E5C4146FF879E0ED1FEAC3416DB9 /* JPPushAnimationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		082888AC9CCF90019D93B17B8E3FC18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		0976F2889D72C1B6AAF060FD79C8EEF2 /* JPNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FCB5CBE0EC329EE2D35FA2228A7FF /* JPNavigationController-dummy.m */; };
+		0B1F7CD7E08B55400F73235C4FD9AFC5 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAD6621BE882D2C3AA8662B56EC52BF /* JRSwizzle-dummy.m */; };
+		0C89B2A28FA58116019A17592A7F7AA8 /* JPWarpNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAE0F05DC2E5AA954FD405FB1FB2B34 /* JPWarpNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126B61D3F53DCBDFC037F999761265BB /* JPTransitionShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9EC7920304023CB41CBF968A2AB890 /* JPTransitionShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150D5C1F10E5FABD5F43815F2E88DE26 /* JPNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F88743174E935E51850FC64A1821EAE /* JPNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25B2346921E653E7929B5D87FE2D4DB3 /* Pods-BLLandscapeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC20C572327E7920DDCD56B5388BBA4 /* Pods-BLLandscapeDemo-dummy.m */; };
+		3BD18A07E2FDD25ECEB1C2AB2B6A1AA7 /* JPNavigationControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 512CF7B1B764125CCDC355622730F03A /* JPNavigationControllerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507442C9EC232D1752611F59B3737DED /* UINavigationController+FulllScreenPopPush.h in Headers */ = {isa = PBXBuildFile; fileRef = F6222567C1CB7316B68F171FDA8EA469 /* UINavigationController+FulllScreenPopPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555AED44B0FDAF298B3957924A200573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		56D668CF9E5093ADEFB853B2BB6EFBBE /* UIViewController+ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5C65EA6B9652C6F508B2B6F994220 /* UIViewController+ViewControllers.m */; };
+		5BAC79C3BE66265B106F742927011EF7 /* UIViewController+ViewControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C1ABC69E2FCBBC47EF117206CAAA8F /* UIViewController+ViewControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB84E113C0AF4DAC1A44DD0380B6A7F /* UIView+ScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 965CB811C816A4A6EDBCE8D7C45E3B44 /* UIView+ScreenCapture.m */; };
+		6D3A0D55E49588DF9B9DC76B6C673CAF /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F0E9610B730BE3BD5AAF4298D592FF /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D037CC6ABB76837DE9F1E2F54A151D /* JPWarpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A1C1F2BC56056A9E8F6B1EF37777F5 /* JPWarpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8074295B37BCB6669E96168611D80892 /* UIColor+ImageGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649877199FC9DBF2C337AE5AA5D68775 /* UIColor+ImageGenerate.m */; };
+		86444200EF804F75272A5EE89F8FE22A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		87D5A0968EB52DF259939FA36CD216D2 /* JPNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E2B887632588161C833293AFD52FEA /* JPNavigationBar.m */; };
+		8CF4918A3747265D64D15C69A20B0FCF /* JPNavigationControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A984DBD1937CCF9C14A7C30CBAF16ECE /* JPNavigationControllerTransition.m */; };
+		92775670E4B1C0E72BBC813510B8946F /* JPWarpNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD8D3AFE4C7ED9DC6079BEE0D634FE /* JPWarpNavigationController.m */; };
+		95904616B9E43B6794E9387AD07A852B /* JPTransitionShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F4D5B48FB3697F25DF320ADDBE0985 /* JPTransitionShadowView.m */; };
+		98F40A957655EEB0397F6895BD24ABA0 /* JPNavigationControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9A05BC431F668858C56CABE23C3CB0 /* JPNavigationControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9900AB9EAEF15A6F875A5C1CFEE67C58 /* JPNavigationControllerGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9A3D497E5F35ACEED0EF92D4BAF214 /* JPNavigationControllerGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E714E60A9C380D76A63678F24807E7 /* JPBaseAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB87CB164138C4C59738E6A9676D6862 /* JPBaseAnimationTransition.m */; };
+		A0BA476D53D7731C71A367501B93E0BE /* JPNavigationControllerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DFB81EEE35145B0758DC0F9FD16AEA /* JPNavigationControllerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E34364F1ED3DFEF0D57BDBD3F4DF5E /* UIColor+ImageGenerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 193E815128D412C82C6BDEC30D1F84E6 /* UIColor+ImageGenerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CC8FB8E7626893FFB27D1384422591 /* JPWarpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219EBBFCF9A7CF26E09627E0A4D9C6DF /* JPWarpViewController.m */; };
+		AACECFE58C3082834665DF87843D5EAE /* JPPushAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 832E6A9244851083C76736968343231F /* JPPushAnimationTransition.m */; };
+		BAD8D915EF68AA26F05AB5BEB54DD638 /* JPBaseAnimationTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BF53BA14942EA5A75FF72D69653D8C /* JPBaseAnimationTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35D68F56D83B318AC78E2F3C08818B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D831B47D7CFDF77D06B1F14ED4C21FAD /* JPNavigationControllerCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE43F1FEB3784D38E549016CE207105 /* JPNavigationControllerCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D88110ECE443A8ECBB87229EE4FA8D15 /* JPNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3890C0D6A1090A8A33B36D63C5CF6CF9 /* JPNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A6EF371CD0687B7A07D03A00A6DE76 /* JPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F7E288C590EDA55B3F43BB13F5B8E /* JPNavigationController.m */; };
+		EF62F955C6A5156E00B71DFE0C18FB4D /* JPNavigationControllerGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98EA39CF7DC23CBCB61A701C8593F2 /* JPNavigationControllerGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E88557200D6B0B22E5B8711F642B8304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0606AE1E7696CCFE3E1400A92489A474;
+			remoteInfo = JRSwizzle;
+		};
+		EF6FB2EA7BFB88705CFFB4BA07A15C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915E8FEADDA0644106187EA8CE7B2E00;
+			remoteInfo = JPNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C1ABC69E2FCBBC47EF117206CAAA8F /* UIViewController+ViewControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ViewControllers.h"; path = "JPNavigationController/UIViewController+ViewControllers.h"; sourceTree = "<group>"; };
+		0E28A3DCE9B817C5934E59C48A8CEFF2 /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		0F88743174E935E51850FC64A1821EAE /* JPNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationBar.h; path = JPNavigationController/JPNavigationBar.h; sourceTree = "<group>"; };
+		11B1048CB5575FC425C133628E7FA247 /* Pods-BLLandscapeDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLandscapeDemo-frameworks.sh"; sourceTree = "<group>"; };
+		14BF53BA14942EA5A75FF72D69653D8C /* JPBaseAnimationTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPBaseAnimationTransition.h; path = JPNavigationController/JPBaseAnimationTransition.h; sourceTree = "<group>"; };
+		193E815128D412C82C6BDEC30D1F84E6 /* UIColor+ImageGenerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ImageGenerate.h"; path = "JPNavigationController/UIColor+ImageGenerate.h"; sourceTree = "<group>"; };
+		1B9A07B8E6E3A84AAD14EC029564F50D /* libJPNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJPNavigationController.a; path = libJPNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		219EBBFCF9A7CF26E09627E0A4D9C6DF /* JPWarpViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPWarpViewController.m; path = JPNavigationController/JPWarpViewController.m; sourceTree = "<group>"; };
+		249A2E37C1172ECB24791B6662730E91 /* Pods-BLLandscapeDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLLandscapeDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A9EC7920304023CB41CBF968A2AB890 /* JPTransitionShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPTransitionShadowView.h; path = JPNavigationController/JPTransitionShadowView.h; sourceTree = "<group>"; };
+		3890C0D6A1090A8A33B36D63C5CF6CF9 /* JPNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationController.h; path = JPNavigationController/JPNavigationController.h; sourceTree = "<group>"; };
+		3EE81B4A49A869D17267666C72240AAE /* Pods-BLLandscapeDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLLandscapeDemo-resources.sh"; sourceTree = "<group>"; };
+		3FA94342164459EFCB0560F03F390760 /* JPNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPNavigationController.xcconfig; sourceTree = "<group>"; };
+		4B98EA39CF7DC23CBCB61A701C8593F2 /* JPNavigationControllerGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPNavigationControllerGestureRecognizer.m; path = JPNavigationController/JPNavigationControllerGestureRecognizer.m; sourceTree = "<group>"; };
+		512CF7B1B764125CCDC355622730F03A /* JPNavigationControllerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationControllerTransition.h; path = JPNavigationController/JPNavigationControllerTransition.h; sourceTree = "<group>"; };
+		55E2B887632588161C833293AFD52FEA /* JPNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPNavigationBar.m; path = JPNavigationController/JPNavigationBar.m; sourceTree = "<group>"; };
+		607F7E288C590EDA55B3F43BB13F5B8E /* JPNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPNavigationController.m; path = JPNavigationController/JPNavigationController.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		649877199FC9DBF2C337AE5AA5D68775 /* UIColor+ImageGenerate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ImageGenerate.m"; path = "JPNavigationController/UIColor+ImageGenerate.m"; sourceTree = "<group>"; };
+		6B9FCB5CBE0EC329EE2D35FA2228A7FF /* JPNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPNavigationController-dummy.m"; sourceTree = "<group>"; };
+		6EF5C65EA6B9652C6F508B2B6F994220 /* UIViewController+ViewControllers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ViewControllers.m"; path = "JPNavigationController/UIViewController+ViewControllers.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		832E6A9244851083C76736968343231F /* JPPushAnimationTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPPushAnimationTransition.m; path = JPNavigationController/JPPushAnimationTransition.m; sourceTree = "<group>"; };
+		8AA75482F0FA9E7208E01E2C55B54DEB /* libPods-BLLandscapeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BLLandscapeDemo.a"; path = "libPods-BLLandscapeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F0E9610B730BE3BD5AAF4298D592FF /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A1C1F2BC56056A9E8F6B1EF37777F5 /* JPWarpViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPWarpViewController.h; path = JPNavigationController/JPWarpViewController.h; sourceTree = "<group>"; };
+		965CB811C816A4A6EDBCE8D7C45E3B44 /* UIView+ScreenCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ScreenCapture.m"; path = "JPNavigationController/UIView+ScreenCapture.m"; sourceTree = "<group>"; };
+		9A42E5C4146FF879E0ED1FEAC3416DB9 /* JPPushAnimationTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPPushAnimationTransition.h; path = JPNavigationController/JPPushAnimationTransition.h; sourceTree = "<group>"; };
+		9B524CF4A0FCDF0D266FCFCFC7852A9A /* Pods-BLLandscapeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLandscapeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB2BE896AD742B56360E32B3F9196AA /* UIView+ScreenCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ScreenCapture.h"; path = "JPNavigationController/UIView+ScreenCapture.h"; sourceTree = "<group>"; };
+		A984DBD1937CCF9C14A7C30CBAF16ECE /* JPNavigationControllerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPNavigationControllerTransition.m; path = JPNavigationController/JPNavigationControllerTransition.m; sourceTree = "<group>"; };
+		B9DFB81EEE35145B0758DC0F9FD16AEA /* JPNavigationControllerKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationControllerKit.h; path = JPNavigationController/JPNavigationControllerKit.h; sourceTree = "<group>"; };
+		BDAD6621BE882D2C3AA8662B56EC52BF /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		C5AD8D3AFE4C7ED9DC6079BEE0D634FE /* JPWarpNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPWarpNavigationController.m; path = JPNavigationController/JPWarpNavigationController.m; sourceTree = "<group>"; };
+		CB39FF678196E7CCD303EA9BE74B294A /* JPNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		CD9A3D497E5F35ACEED0EF92D4BAF214 /* JPNavigationControllerGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationControllerGestureRecognizer.h; path = JPNavigationController/JPNavigationControllerGestureRecognizer.h; sourceTree = "<group>"; };
+		D11B3C14A8C1FDD9785B36D6227E75BB /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
+		D9F4D5B48FB3697F25DF320ADDBE0985 /* JPTransitionShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPTransitionShadowView.m; path = JPNavigationController/JPTransitionShadowView.m; sourceTree = "<group>"; };
+		DB87CB164138C4C59738E6A9676D6862 /* JPBaseAnimationTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPBaseAnimationTransition.m; path = JPNavigationController/JPBaseAnimationTransition.m; sourceTree = "<group>"; };
+		DDAE0F05DC2E5AA954FD405FB1FB2B34 /* JPWarpNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPWarpNavigationController.h; path = JPNavigationController/JPWarpNavigationController.h; sourceTree = "<group>"; };
+		DE9A05BC431F668858C56CABE23C3CB0 /* JPNavigationControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationControllerProtocol.h; path = JPNavigationController/JPNavigationControllerProtocol.h; sourceTree = "<group>"; };
+		EBED84492D199E4524E5215F0EEC3445 /* libJRSwizzle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJRSwizzle.a; path = libJRSwizzle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE43F1FEB3784D38E549016CE207105 /* JPNavigationControllerCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPNavigationControllerCompat.h; path = JPNavigationController/JPNavigationControllerCompat.h; sourceTree = "<group>"; };
+		F485A367ADC093178305083841D60685 /* JPNavigationController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JPNavigationController.bundle; path = JPNavigationController/JPNavigationController.bundle; sourceTree = "<group>"; };
+		F6222567C1CB7316B68F171FDA8EA469 /* UINavigationController+FulllScreenPopPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FulllScreenPopPush.h"; path = "JPNavigationController/UINavigationController+FulllScreenPopPush.h"; sourceTree = "<group>"; };
+		F926EFB64CDB7CB6E1A6D20F773A012E /* Pods-BLLandscapeDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLLandscapeDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9F03FC9B74F12844D402A6C54BB6A7C /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		FAC20C572327E7920DDCD56B5388BBA4 /* Pods-BLLandscapeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLLandscapeDemo-dummy.m"; sourceTree = "<group>"; };
+		FD07F08D8584A635E3D53F831D8C18EA /* Pods-BLLandscapeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLLandscapeDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36BC1A59D70F17AEA8CD4249FC034132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35D68F56D83B318AC78E2F3C08818B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85446CBBF8C5C615A8E2134786B05923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082888AC9CCF90019D93B17B8E3FC18A /* Foundation.framework in Frameworks */,
+				86444200EF804F75272A5EE89F8FE22A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28CCD1BC7FCE7CCFE8364B897F33BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555AED44B0FDAF298B3957924A200573 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4964FC51EFA33CBEE63730CF4B1805 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D11B3C14A8C1FDD9785B36D6227E75BB /* JRSwizzle.xcconfig */,
+				BDAD6621BE882D2C3AA8662B56EC52BF /* JRSwizzle-dummy.m */,
+				F9F03FC9B74F12844D402A6C54BB6A7C /* JRSwizzle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B288D017B855B8E5B10FCF659EC2EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C53EE944AD4C71089979CF93A4846 /* Pods-BLLandscapeDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DF9390E91CD3DE43C49D69BC4F08D3E1 /* Pods */,
+				D01EC59A81616E5DF522F785B03B34A4 /* Products */,
+				67B288D017B855B8E5B10FCF659EC2EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80429786EB554AF1785DD0A27B393E1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F485A367ADC093178305083841D60685 /* JPNavigationController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89A6BA5D2FB66D86BCAB969C0654A5E5 /* JPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				14BF53BA14942EA5A75FF72D69653D8C /* JPBaseAnimationTransition.h */,
+				DB87CB164138C4C59738E6A9676D6862 /* JPBaseAnimationTransition.m */,
+				0F88743174E935E51850FC64A1821EAE /* JPNavigationBar.h */,
+				55E2B887632588161C833293AFD52FEA /* JPNavigationBar.m */,
+				3890C0D6A1090A8A33B36D63C5CF6CF9 /* JPNavigationController.h */,
+				607F7E288C590EDA55B3F43BB13F5B8E /* JPNavigationController.m */,
+				EEE43F1FEB3784D38E549016CE207105 /* JPNavigationControllerCompat.h */,
+				CD9A3D497E5F35ACEED0EF92D4BAF214 /* JPNavigationControllerGestureRecognizer.h */,
+				4B98EA39CF7DC23CBCB61A701C8593F2 /* JPNavigationControllerGestureRecognizer.m */,
+				B9DFB81EEE35145B0758DC0F9FD16AEA /* JPNavigationControllerKit.h */,
+				DE9A05BC431F668858C56CABE23C3CB0 /* JPNavigationControllerProtocol.h */,
+				512CF7B1B764125CCDC355622730F03A /* JPNavigationControllerTransition.h */,
+				A984DBD1937CCF9C14A7C30CBAF16ECE /* JPNavigationControllerTransition.m */,
+				9A42E5C4146FF879E0ED1FEAC3416DB9 /* JPPushAnimationTransition.h */,
+				832E6A9244851083C76736968343231F /* JPPushAnimationTransition.m */,
+				2A9EC7920304023CB41CBF968A2AB890 /* JPTransitionShadowView.h */,
+				D9F4D5B48FB3697F25DF320ADDBE0985 /* JPTransitionShadowView.m */,
+				DDAE0F05DC2E5AA954FD405FB1FB2B34 /* JPWarpNavigationController.h */,
+				C5AD8D3AFE4C7ED9DC6079BEE0D634FE /* JPWarpNavigationController.m */,
+				95A1C1F2BC56056A9E8F6B1EF37777F5 /* JPWarpViewController.h */,
+				219EBBFCF9A7CF26E09627E0A4D9C6DF /* JPWarpViewController.m */,
+				193E815128D412C82C6BDEC30D1F84E6 /* UIColor+ImageGenerate.h */,
+				649877199FC9DBF2C337AE5AA5D68775 /* UIColor+ImageGenerate.m */,
+				F6222567C1CB7316B68F171FDA8EA469 /* UINavigationController+FulllScreenPopPush.h */,
+				9CB2BE896AD742B56360E32B3F9196AA /* UIView+ScreenCapture.h */,
+				965CB811C816A4A6EDBCE8D7C45E3B44 /* UIView+ScreenCapture.m */,
+				09C1ABC69E2FCBBC47EF117206CAAA8F /* UIViewController+ViewControllers.h */,
+				6EF5C65EA6B9652C6F508B2B6F994220 /* UIViewController+ViewControllers.m */,
+				80429786EB554AF1785DD0A27B393E1F /* Resources */,
+				8C2209EE2857B838641C2AF48D6D5C32 /* Support Files */,
+			);
+			name = JPNavigationController;
+			path = JPNavigationController;
+			sourceTree = "<group>";
+		};
+		8C2209EE2857B838641C2AF48D6D5C32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA94342164459EFCB0560F03F390760 /* JPNavigationController.xcconfig */,
+				6B9FCB5CBE0EC329EE2D35FA2228A7FF /* JPNavigationController-dummy.m */,
+				CB39FF678196E7CCD303EA9BE74B294A /* JPNavigationController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPNavigationController";
+			sourceTree = "<group>";
+		};
+		CD5C53EE944AD4C71089979CF93A4846 /* Pods-BLLandscapeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F926EFB64CDB7CB6E1A6D20F773A012E /* Pods-BLLandscapeDemo-acknowledgements.markdown */,
+				249A2E37C1172ECB24791B6662730E91 /* Pods-BLLandscapeDemo-acknowledgements.plist */,
+				FAC20C572327E7920DDCD56B5388BBA4 /* Pods-BLLandscapeDemo-dummy.m */,
+				11B1048CB5575FC425C133628E7FA247 /* Pods-BLLandscapeDemo-frameworks.sh */,
+				3EE81B4A49A869D17267666C72240AAE /* Pods-BLLandscapeDemo-resources.sh */,
+				9B524CF4A0FCDF0D266FCFCFC7852A9A /* Pods-BLLandscapeDemo.debug.xcconfig */,
+				FD07F08D8584A635E3D53F831D8C18EA /* Pods-BLLandscapeDemo.release.xcconfig */,
+			);
+			name = "Pods-BLLandscapeDemo";
+			path = "Target Support Files/Pods-BLLandscapeDemo";
+			sourceTree = "<group>";
+		};
+		D01EC59A81616E5DF522F785B03B34A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9A07B8E6E3A84AAD14EC029564F50D /* libJPNavigationController.a */,
+				EBED84492D199E4524E5215F0EEC3445 /* libJRSwizzle.a */,
+				8AA75482F0FA9E7208E01E2C55B54DEB /* libPods-BLLandscapeDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9390E91CD3DE43C49D69BC4F08D3E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A6BA5D2FB66D86BCAB969C0654A5E5 /* JPNavigationController */,
+				F55C135995E9A9433F78C2B1907FE55A /* JRSwizzle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F55C135995E9A9433F78C2B1907FE55A /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				90F0E9610B730BE3BD5AAF4298D592FF /* JRSwizzle.h */,
+				0E28A3DCE9B817C5934E59C48A8CEFF2 /* JRSwizzle.m */,
+				3C4964FC51EFA33CBEE63730CF4B1805 /* Support Files */,
+			);
+			name = JRSwizzle;
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		729D65FD381A6E5E26E27AD1B3171981 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3A0D55E49588DF9B9DC76B6C673CAF /* JRSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415F618BAACC61855B02AAABF212152 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD8D915EF68AA26F05AB5BEB54DD638 /* JPBaseAnimationTransition.h in Headers */,
+				150D5C1F10E5FABD5F43815F2E88DE26 /* JPNavigationBar.h in Headers */,
+				D88110ECE443A8ECBB87229EE4FA8D15 /* JPNavigationController.h in Headers */,
+				D831B47D7CFDF77D06B1F14ED4C21FAD /* JPNavigationControllerCompat.h in Headers */,
+				9900AB9EAEF15A6F875A5C1CFEE67C58 /* JPNavigationControllerGestureRecognizer.h in Headers */,
+				A0BA476D53D7731C71A367501B93E0BE /* JPNavigationControllerKit.h in Headers */,
+				98F40A957655EEB0397F6895BD24ABA0 /* JPNavigationControllerProtocol.h in Headers */,
+				3BD18A07E2FDD25ECEB1C2AB2B6A1AA7 /* JPNavigationControllerTransition.h in Headers */,
+				040847039B3CA64365DDEB1B71A67B39 /* JPPushAnimationTransition.h in Headers */,
+				126B61D3F53DCBDFC037F999761265BB /* JPTransitionShadowView.h in Headers */,
+				0C89B2A28FA58116019A17592A7F7AA8 /* JPWarpNavigationController.h in Headers */,
+				73D037CC6ABB76837DE9F1E2F54A151D /* JPWarpViewController.h in Headers */,
+				A2E34364F1ED3DFEF0D57BDBD3F4DF5E /* UIColor+ImageGenerate.h in Headers */,
+				507442C9EC232D1752611F59B3737DED /* UINavigationController+FulllScreenPopPush.h in Headers */,
+				00F0B4F81A4F90D4DF11C0FB4D73F77C /* UIView+ScreenCapture.h in Headers */,
+				5BAC79C3BE66265B106F742927011EF7 /* UIViewController+ViewControllers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0606AE1E7696CCFE3E1400A92489A474 /* JRSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E494C65978844DD4D9DE999CAEDDDA /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
+			buildPhases = (
+				F3038BEAABF97EE2BDA42558B2C20588 /* Sources */,
+				F28CCD1BC7FCE7CCFE8364B897F33BD8 /* Frameworks */,
+				729D65FD381A6E5E26E27AD1B3171981 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRSwizzle;
+			productName = JRSwizzle;
+			productReference = EBED84492D199E4524E5215F0EEC3445 /* libJRSwizzle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		37BC76CE3F2AB5AE4C6F1899C9B92908 /* Pods-BLLandscapeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D851800F260812E48C124120489997C /* Build configuration list for PBXNativeTarget "Pods-BLLandscapeDemo" */;
+			buildPhases = (
+				9964BFCC7B7C180A3DF17C595A4761B5 /* Sources */,
+				36BC1A59D70F17AEA8CD4249FC034132 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989E06A8FC38C1A41D0592B3EE12178B /* PBXTargetDependency */,
+				337C381A48B04420A60CD1CCC9689039 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLLandscapeDemo";
+			productName = "Pods-BLLandscapeDemo";
+			productReference = 8AA75482F0FA9E7208E01E2C55B54DEB /* libPods-BLLandscapeDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		915E8FEADDA0644106187EA8CE7B2E00 /* JPNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB5B57C46CCC7929EA289FD249302BF /* Build configuration list for PBXNativeTarget "JPNavigationController" */;
+			buildPhases = (
+				B37F1C647B68D2507E3935EB281CCB3F /* Sources */,
+				85446CBBF8C5C615A8E2134786B05923 /* Frameworks */,
+				F415F618BAACC61855B02AAABF212152 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPNavigationController;
+			productName = JPNavigationController;
+			productReference = 1B9A07B8E6E3A84AAD14EC029564F50D /* libJPNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D01EC59A81616E5DF522F785B03B34A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				915E8FEADDA0644106187EA8CE7B2E00 /* JPNavigationController */,
+				0606AE1E7696CCFE3E1400A92489A474 /* JRSwizzle */,
+				37BC76CE3F2AB5AE4C6F1899C9B92908 /* Pods-BLLandscapeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9964BFCC7B7C180A3DF17C595A4761B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B2346921E653E7929B5D87FE2D4DB3 /* Pods-BLLandscapeDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37F1C647B68D2507E3935EB281CCB3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E714E60A9C380D76A63678F24807E7 /* JPBaseAnimationTransition.m in Sources */,
+				87D5A0968EB52DF259939FA36CD216D2 /* JPNavigationBar.m in Sources */,
+				0976F2889D72C1B6AAF060FD79C8EEF2 /* JPNavigationController-dummy.m in Sources */,
+				D8A6EF371CD0687B7A07D03A00A6DE76 /* JPNavigationController.m in Sources */,
+				EF62F955C6A5156E00B71DFE0C18FB4D /* JPNavigationControllerGestureRecognizer.m in Sources */,
+				8CF4918A3747265D64D15C69A20B0FCF /* JPNavigationControllerTransition.m in Sources */,
+				AACECFE58C3082834665DF87843D5EAE /* JPPushAnimationTransition.m in Sources */,
+				95904616B9E43B6794E9387AD07A852B /* JPTransitionShadowView.m in Sources */,
+				92775670E4B1C0E72BBC813510B8946F /* JPWarpNavigationController.m in Sources */,
+				A3CC8FB8E7626893FFB27D1384422591 /* JPWarpViewController.m in Sources */,
+				8074295B37BCB6669E96168611D80892 /* UIColor+ImageGenerate.m in Sources */,
+				5BB84E113C0AF4DAC1A44DD0380B6A7F /* UIView+ScreenCapture.m in Sources */,
+				56D668CF9E5093ADEFB853B2BB6EFBBE /* UIViewController+ViewControllers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3038BEAABF97EE2BDA42558B2C20588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1F7CD7E08B55400F73235C4FD9AFC5 /* JRSwizzle-dummy.m in Sources */,
+				034DC10F5E754A45028AD6CDE43F2095 /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		337C381A48B04420A60CD1CCC9689039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = 0606AE1E7696CCFE3E1400A92489A474 /* JRSwizzle */;
+			targetProxy = E88557200D6B0B22E5B8711F642B8304 /* PBXContainerItemProxy */;
+		};
+		989E06A8FC38C1A41D0592B3EE12178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPNavigationController;
+			target = 915E8FEADDA0644106187EA8CE7B2E00 /* JPNavigationController */;
+			targetProxy = EF6FB2EA7BFB88705CFFB4BA07A15C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01319CA8737E7D9AA009247CADE19F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA94342164459EFCB0560F03F390760 /* JPNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPNavigationController/JPNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		37FCA89C1ED70A7047720206F09FA418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA94342164459EFCB0560F03F390760 /* JPNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPNavigationController/JPNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B617A0CCC1B7F52EF1E56CF434DE4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11B3C14A8C1FDD9785B36D6227E75BB /* JRSwizzle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E13F09BBD43F23C19B922DCF087380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B524CF4A0FCDF0D266FCFCFC7852A9A /* Pods-BLLandscapeDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E3CE3534D02F9FF615E1E730CF82904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD07F08D8584A635E3D53F831D8C18EA /* Pods-BLLandscapeDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9F684CCA77A0F9100FB1C222EA51CC7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11B3C14A8C1FDD9785B36D6227E75BB /* JRSwizzle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB5B57C46CCC7929EA289FD249302BF /* Build configuration list for PBXNativeTarget "JPNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01319CA8737E7D9AA009247CADE19F5D /* Debug */,
+				37FCA89C1ED70A7047720206F09FA418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D851800F260812E48C124120489997C /* Build configuration list for PBXNativeTarget "Pods-BLLandscapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E13F09BBD43F23C19B922DCF087380 /* Debug */,
+				7E3CE3534D02F9FF615E1E730CF82904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E494C65978844DD4D9DE999CAEDDDA /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F684CCA77A0F9100FB1C222EA51CC7E /* Debug */,
+				3B617A0CCC1B7F52EF1E56CF434DE4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0434ED0525F41B645BC46F2A /* libPods-BLLandscapeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C924DF9A20EDA269D622A4 /* libPods-BLLandscapeDemo.a */; };
+		480D38331F2447090015CC38 /* BLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480D38321F2447090015CC38 /* BLRootViewController.m */; };
+		480D38361F2451850015CC38 /* BLAnotherWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480D38351F2451850015CC38 /* BLAnotherWindowViewController.m */; };
+		481AB98E1F24797B004AB81E /* UIView+BLLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 481AB98B1F24797B004AB81E /* UIView+BLLandscape.m */; };
+		481AB98F1F24797B004AB81E /* UIViewController+Landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 481AB98D1F24797B004AB81E /* UIViewController+Landscape.m */; };
+		481AB9931F2479C5004AB81E /* BLSubstituteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 481AB9921F2479C5004AB81E /* BLSubstituteObject.m */; };
+		487ADC161F239EF100D7FBBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADC151F239EF100D7FBBD /* main.m */; };
+		487ADC191F239EF100D7FBBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADC181F239EF100D7FBBD /* AppDelegate.m */; };
+		487ADC211F239EF100D7FBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487ADC201F239EF100D7FBBD /* Assets.xcassets */; };
+		487ADC241F239EF100D7FBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487ADC221F239EF100D7FBBD /* LaunchScreen.storyboard */; };
+		487ADC2D1F239F4900D7FBBD /* BLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADC2C1F239F4900D7FBBD /* BLHomeViewController.m */; };
+		487ADC331F23A43300D7FBBD /* BLRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADC321F23A43300D7FBBD /* BLRecordViewController.m */; };
+		487ADC361F23A47A00D7FBBD /* BLPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487ADC351F23A47A00D7FBBD /* BLPlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0503BAA2BE4B0F3998F50C56 /* Pods-BLLandscapeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLLandscapeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLLandscapeDemo/Pods-BLLandscapeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		480D38311F2447090015CC38 /* BLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRootViewController.h; sourceTree = "<group>"; };
+		480D38321F2447090015CC38 /* BLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRootViewController.m; sourceTree = "<group>"; };
+		480D38341F2451850015CC38 /* BLAnotherWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnotherWindowViewController.h; sourceTree = "<group>"; };
+		480D38351F2451850015CC38 /* BLAnotherWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnotherWindowViewController.m; sourceTree = "<group>"; };
+		481AB98A1F24797B004AB81E /* UIView+BLLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BLLandscape.h"; sourceTree = "<group>"; };
+		481AB98B1F24797B004AB81E /* UIView+BLLandscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BLLandscape.m"; sourceTree = "<group>"; };
+		481AB98C1F24797B004AB81E /* UIViewController+Landscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Landscape.h"; sourceTree = "<group>"; };
+		481AB98D1F24797B004AB81E /* UIViewController+Landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Landscape.m"; sourceTree = "<group>"; };
+		481AB9911F2479C5004AB81E /* BLSubstituteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLSubstituteObject.h; sourceTree = "<group>"; };
+		481AB9921F2479C5004AB81E /* BLSubstituteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLSubstituteObject.m; sourceTree = "<group>"; };
+		487ADC111F239EF100D7FBBD /* BLLandscapeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLLandscapeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487ADC151F239EF100D7FBBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		487ADC171F239EF100D7FBBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		487ADC181F239EF100D7FBBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		487ADC201F239EF100D7FBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		487ADC231F239EF100D7FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487ADC251F239EF100D7FBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487ADC2B1F239F4900D7FBBD /* BLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHomeViewController.h; sourceTree = "<group>"; };
+		487ADC2C1F239F4900D7FBBD /* BLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHomeViewController.m; sourceTree = "<group>"; };
+		487ADC311F23A43300D7FBBD /* BLRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRecordViewController.h; sourceTree = "<group>"; };
+		487ADC321F23A43300D7FBBD /* BLRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRecordViewController.m; sourceTree = "<group>"; };
+		487ADC341F23A47A00D7FBBD /* BLPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPlayViewController.h; sourceTree = "<group>"; };
+		487ADC351F23A47A00D7FBBD /* BLPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPlayViewController.m; sourceTree = "<group>"; };
+		69C924DF9A20EDA269D622A4 /* libPods-BLLandscapeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLLandscapeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F24F11249061E90D3EEF63E /* Pods-BLLandscapeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLLandscapeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLLandscapeDemo/Pods-BLLandscapeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487ADC0E1F239EF100D7FBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0434ED0525F41B645BC46F2A /* libPods-BLLandscapeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481AB9891F24797B004AB81E /* BLLandscape */ = {
+			isa = PBXGroup;
+			children = (
+				481AB9911F2479C5004AB81E /* BLSubstituteObject.h */,
+				481AB9921F2479C5004AB81E /* BLSubstituteObject.m */,
+				481AB98A1F24797B004AB81E /* UIView+BLLandscape.h */,
+				481AB98B1F24797B004AB81E /* UIView+BLLandscape.m */,
+				481AB98C1F24797B004AB81E /* UIViewController+Landscape.h */,
+				481AB98D1F24797B004AB81E /* UIViewController+Landscape.m */,
+			);
+			path = BLLandscape;
+			sourceTree = SOURCE_ROOT;
+		};
+		487ADC081F239EF100D7FBBD = {
+			isa = PBXGroup;
+			children = (
+				487ADC131F239EF100D7FBBD /* BLLandscapeDemo */,
+				487ADC121F239EF100D7FBBD /* Products */,
+				5E3B5420CA9008DD31AD88C6 /* Pods */,
+				CCAC74B55034CCA1A42AF545 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		487ADC121F239EF100D7FBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487ADC111F239EF100D7FBBD /* BLLandscapeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487ADC131F239EF100D7FBBD /* BLLandscapeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				481AB9891F24797B004AB81E /* BLLandscape */,
+				487ADC171F239EF100D7FBBD /* AppDelegate.h */,
+				487ADC181F239EF100D7FBBD /* AppDelegate.m */,
+				480D38311F2447090015CC38 /* BLRootViewController.h */,
+				480D38321F2447090015CC38 /* BLRootViewController.m */,
+				480D38341F2451850015CC38 /* BLAnotherWindowViewController.h */,
+				480D38351F2451850015CC38 /* BLAnotherWindowViewController.m */,
+				487ADC2B1F239F4900D7FBBD /* BLHomeViewController.h */,
+				487ADC2C1F239F4900D7FBBD /* BLHomeViewController.m */,
+				487ADC311F23A43300D7FBBD /* BLRecordViewController.h */,
+				487ADC321F23A43300D7FBBD /* BLRecordViewController.m */,
+				487ADC341F23A47A00D7FBBD /* BLPlayViewController.h */,
+				487ADC351F23A47A00D7FBBD /* BLPlayViewController.m */,
+				487ADC201F239EF100D7FBBD /* Assets.xcassets */,
+				487ADC221F239EF100D7FBBD /* LaunchScreen.storyboard */,
+				487ADC251F239EF100D7FBBD /* Info.plist */,
+				487ADC141F239EF100D7FBBD /* Supporting Files */,
+			);
+			path = BLLandscapeDemo;
+			sourceTree = "<group>";
+		};
+		487ADC141F239EF100D7FBBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				487ADC151F239EF100D7FBBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E3B5420CA9008DD31AD88C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F24F11249061E90D3EEF63E /* Pods-BLLandscapeDemo.debug.xcconfig */,
+				0503BAA2BE4B0F3998F50C56 /* Pods-BLLandscapeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCAC74B55034CCA1A42AF545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C924DF9A20EDA269D622A4 /* libPods-BLLandscapeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487ADC101F239EF100D7FBBD /* BLLandscapeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487ADC281F239EF100D7FBBD /* Build configuration list for PBXNativeTarget "BLLandscapeDemo" */;
+			buildPhases = (
+				D574DFBBB45142BA7CE1022D /* [CP] Check Pods Manifest.lock */,
+				487ADC0D1F239EF100D7FBBD /* Sources */,
+				487ADC0E1F239EF100D7FBBD /* Frameworks */,
+				487ADC0F1F239EF100D7FBBD /* Resources */,
+				CED58F437025E43221DF6F1F /* [CP] Embed Pods Frameworks */,
+				3283428C67659F5600BDEBF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLLandscapeDemo;
+			productName = BLLandscapeDemo;
+			productReference = 487ADC111F239EF100D7FBBD /* BLLandscapeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487ADC091F239EF100D7FBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "尹久盼";
+				TargetAttributes = {
+					487ADC101F239EF100D7FBBD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TBX22VE2Q6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 487ADC0C1F239EF100D7FBBD /* Build configuration list for PBXProject "BLLandscapeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 487ADC081F239EF100D7FBBD;
+			productRefGroup = 487ADC121F239EF100D7FBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487ADC101F239EF100D7FBBD /* BLLandscapeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487ADC0F1F239EF100D7FBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487ADC241F239EF100D7FBBD /* LaunchScreen.storyboard in Resources */,
+				487ADC211F239EF100D7FBBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3283428C67659F5600BDEBF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLLandscapeDemo/Pods-BLLandscapeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED58F437025E43221DF6F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLLandscapeDemo/Pods-BLLandscapeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D574DFBBB45142BA7CE1022D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487ADC0D1F239EF100D7FBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487ADC191F239EF100D7FBBD /* AppDelegate.m in Sources */,
+				481AB98F1F24797B004AB81E /* UIViewController+Landscape.m in Sources */,
+				480D38361F2451850015CC38 /* BLAnotherWindowViewController.m in Sources */,
+				480D38331F2447090015CC38 /* BLRootViewController.m in Sources */,
+				481AB9931F2479C5004AB81E /* BLSubstituteObject.m in Sources */,
+				487ADC161F239EF100D7FBBD /* main.m in Sources */,
+				487ADC2D1F239F4900D7FBBD /* BLHomeViewController.m in Sources */,
+				481AB98E1F24797B004AB81E /* UIView+BLLandscape.m in Sources */,
+				487ADC331F23A43300D7FBBD /* BLRecordViewController.m in Sources */,
+				487ADC361F23A47A00D7FBBD /* BLPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		487ADC221F239EF100D7FBBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487ADC231F239EF100D7FBBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487ADC261F239EF100D7FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		487ADC271F239EF100D7FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487ADC291F239EF100D7FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F24F11249061E90D3EEF63E /* Pods-BLLandscapeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TBX22VE2Q6;
+				INFOPLIST_FILE = BLLandscapeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpan.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		487ADC2A1F239EF100D7FBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0503BAA2BE4B0F3998F50C56 /* Pods-BLLandscapeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TBX22VE2Q6;
+				INFOPLIST_FILE = BLLandscapeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newpan.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487ADC0C1F239EF100D7FBBD /* Build configuration list for PBXProject "BLLandscapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487ADC261F239EF100D7FBBD /* Debug */,
+				487ADC271F239EF100D7FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487ADC281F239EF100D7FBBD /* Build configuration list for PBXNativeTarget "BLLandscapeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487ADC291F239EF100D7FBBD /* Debug */,
+				487ADC2A1F239EF100D7FBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487ADC091F239EF100D7FBBD /* Project object */;
+}
