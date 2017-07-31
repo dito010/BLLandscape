@@ -37,7 +37,7 @@
         return ((UINavigationController *)self).viewControllers.lastObject.shouldAutorotate;
     }
     
-    if ([self isKindOfClass:NSClassFromString(@"AVFullScreenViewController")]) {
+    if ([self checkSelfNeedLandscape]) {
         return YES;
     }
     
@@ -65,7 +65,7 @@
         return [((UINavigationController *)self).viewControllers.lastObject supportedInterfaceOrientations];
     }
     
-    if ([self isKindOfClass:NSClassFromString(@"AVFullScreenViewController")]) {
+    if ([self checkSelfNeedLandscape]) {
         return UIInterfaceOrientationMaskAllButUpsideDown;
     }
     
@@ -82,6 +82,41 @@
 
 - (BOOL)bl_shouldAutoLandscape{
     return [objc_getAssociatedObject(self, _cmd) boolValue];
+}
+
+- (BOOL)checkSelfNeedLandscape{
+    NSProcessInfo *processInfo = [NSProcessInfo processInfo];
+    NSOperatingSystemVersion operatingSytemVersion = processInfo.operatingSystemVersion;
+    
+    if (operatingSytemVersion.majorVersion == 8) {
+        NSString *className = NSStringFromClass(self.class);
+        if ([@[@"AVPlayerViewController", @"AVFullScreenViewController", @"AVFullScreenPlaybackControlsViewController"
+               ] containsObject:className]) {
+            return YES;
+        }
+        
+        if ([self isKindOfClass:[UIViewController class]] && [self childViewControllers].count && [self.childViewControllers.firstObject isKindOfClass:NSClassFromString(@"AVPlayerViewController")]) {
+            return YES;
+        }
+    }
+    else if (operatingSytemVersion.majorVersion == 9){
+        NSString *className = NSStringFromClass(self.class);
+        if ([@[@"WebFullScreenVideoRootViewController", @"AVPlayerViewController", @"AVFullScreenViewController"
+               ] containsObject:className]) {
+            return YES;
+        }
+        
+        if ([self isKindOfClass:[UIViewController class]] && [self childViewControllers].count && [self.childViewControllers.firstObject isKindOfClass:NSClassFromString(@"AVPlayerViewController")]) {
+            return YES;
+        }
+    }
+    else if (operatingSytemVersion.majorVersion == 10){
+        if ([self isKindOfClass:NSClassFromString(@"AVFullScreenViewController")]) {
+            return YES;
+        }
+    }
+    
+    return NO;
 }
 
 @end
